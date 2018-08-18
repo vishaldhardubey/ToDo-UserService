@@ -18,8 +18,6 @@ import com.bridgeit.userservice.model.Email;
 	@Component
 	public class MailService {
 		// Static values for the admin email and password.
-		final static String admin = "vishalcapgemini1807@gmail.com";
-		final static String passwordAdmin = "vish@1993";
 		
 		@Autowired
 		private JavaMailSender javaMailSender;
